@@ -23,10 +23,13 @@ function App() {
           <h1 className="visite">Visite nossas redes sociais</h1>
         </div>
         <div className="icons">
-          <a href="https://www.google.com" target={"blank"}>
+          <a href="https://pt-br.facebook.com" target={"blank"}>
             <AiFillFacebook />
           </a>
-          <a href="https://www.google.com" target={"blank"}>
+          <a
+            href="https://www.instagram.com/rebrax_reciclagem"
+            target={"blank"}
+          >
             <AiFillInstagram />
           </a>
           <footer></footer>
