@@ -10,21 +10,8 @@ function App() {
   return (
     <>
       <div className="App">
-        <div
-          className="bg-image"
-          style={{
-            backgroundImage: `url(${background})`,
-            minHeight: "100%",
-            minWidth: "100%",
-            position: "absolute",
-            backgroundRepeat: "no-repeat",
-            backgroundAttachment: "fixed",
-            backgroundPosition: "center center",
-            backgroundSize: "cover",
-            zIndex: -1,
-            filter: "blur(1px)",
-          }}
-        />
+        <header className="head"></header>
+        <div className="bg" />
         <div className="rebraxLogo">
           <img className="logo" src={logo} alt="Logo"></img>
         </div>
@@ -42,6 +29,7 @@ function App() {
           <a href="https://www.google.com" target={"blank"}>
             <AiFillInstagram />
           </a>
+          <footer></footer>
         </div>
       </div>
     </>

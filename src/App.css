@@ -21,14 +21,12 @@
 }
 
 .bg {
-  background-color: #2e2e2e;
+  background-color: #2d9570;
   height: 100%;
   width: 100%;
   position: absolute;
   /* Add the blur effect */
-  filter: blur(15px);
   z-index: -1;
-  -webkit-filter: blur(15px);
 }
 
 .visite {
@@ -52,11 +50,12 @@
   margin-left: 5px;
   max-width: 200px;
   max-height: 200px;
+  z-index: 1;
 }
 .head {
   padding: 50px;
   text-align: center;
-  background: #000;
+  background: #f7f7f7;
   color: white;
   font-size: 30px;
   position: absolute;
@@ -91,4 +90,9 @@
 .footertext {
   padding-top: 10px;
   font-weight: 800;
+}
+.footer {
+  background-color: #000;
+  height: 100%;
+  position: absolute;
 }
