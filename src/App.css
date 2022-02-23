@@ -1,6 +1,15 @@
 * {
   text-align: center;
 }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  background-color: #2d9570;
+}
+
 .manuten {
   padding-top: 20px;
   font-size: 80px;
@@ -20,14 +29,14 @@
     1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-.bg {
+/*.bg {
   background-color: #2d9570;
   height: 100%;
   width: 100%;
   position: absolute;
-  /* Add the blur effect */
+  Add the blur effect 
   z-index: -1;
-}
+} */
 
 
 .rebraxLogo {
@@ -49,12 +58,16 @@
   z-index: 1;
 }
 .head {
-  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   background: #f7f7f7;
   color: white;
   font-size: 30px;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 .wrench {
@@ -73,11 +86,38 @@
   font-size: 30px;
 }
 
+.titleContact {
+  color: rgb(253, 249, 249);
+  font-size: 30px;
+}
+
+.contacts span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 25px;
+  padding-left: 1rem;
+}
+
+.number {
+  color: #fff;
+  font-size: 25px;
+}
+
+.contacts p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .icons {
   padding-top: 0px;
   font-size: 40px;
   position: relative;
   color: #fff;
+  bottom: 50px;
 }
 .icons a {
   color: #fff;
@@ -91,4 +131,17 @@
   background-color: #000;
   height: 100%;
   position: absolute;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #2d9570;
+  }
+  .head{
+    margin-bottom: 40px;
+  }
+  .manuten {
+    margin-top:  90px;
+    font-size: 50px;
+  }
 }
