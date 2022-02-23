@@ -3,7 +3,6 @@
 }
 
 body {
-  padding: 0px;
   margin: 0px;
   width: 100%;
   height: auto;
@@ -11,8 +10,9 @@ body {
 }
 
 .manuten {
-  padding-top: 20px;
-  font-size: 80px;
+  padding-top: 40px;
+  margin-top: 35px;
+  font-size: 70px;
   font-weight: 400;
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
     1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
@@ -23,10 +23,8 @@ body {
 }
 
 .site {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 50px;
-  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
-    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 /*.bg {
@@ -38,11 +36,10 @@ body {
   z-index: -1;
 } */
 
-
 .rebraxLogo {
   width: 100%;
   display: flex;
-  padding-top: 13px;
+  padding-top: 8px;
   z-index: 1;
 }
 
@@ -89,6 +86,8 @@ body {
 .titleContact {
   color: rgb(253, 249, 249);
   font-size: 30px;
+  margin: 0;
+  padding-bottom: 25px;
 }
 
 .contacts span {
@@ -103,14 +102,16 @@ body {
 .number {
   color: #fff;
   font-size: 25px;
+  padding-top: px;
 }
 
 .contacts p {
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 0rem;
+  margin: 0;
 }
-
 
 .icons {
   padding-top: 0px;
@@ -123,25 +124,15 @@ body {
   color: #fff;
 }
 
-.footertext {
-  padding-top: 10px;
-  font-weight: 800;
-}
-.footer {
-  background-color: #000;
-  height: 100%;
-  position: absolute;
-}
-
 @media (max-width: 600px) {
   body {
     background-color: #2d9570;
   }
-  .head{
+  .head {
     margin-bottom: 40px;
   }
   .manuten {
-    margin-top:  90px;
-    font-size: 50px;
+    margin-top: 90px;
+    font-size: 45px;
   }
 }

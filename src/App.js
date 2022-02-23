@@ -37,10 +37,7 @@ function App() {
           </p>
         </div>
         <div className="icons">
-          <h6 className="visite">Visite nossas redes sociais</h6>
-          <a href="https://pt-br.facebook.com" target={"blank"}>
-            <AiFillFacebook />
-          </a>
+          <h6 className="visite">Visite nossas redes sociais</h6>{" "}
           <a
             href="https://www.instagram.com/rebrax_reciclagem"
             target={"blank"}
