@@ -11,18 +11,15 @@ function App() {
   return (
     <>
       <div className="App">
-        <header className="head">
-          <div className="bg" />
-          <div className="rebraxLogo">
-            <img className="logo" src={logo} alt="Logo"></img>
-          </div>
-        </header>
+        <div className="rebraxLogo">
+          <img className="logo" src={logo} alt="Logo"></img>
+        </div>
 
         <div className="textos">
           <h1 className="manuten">
             EM <br /> CONSTRUÇÃO
           </h1>
-          <h2 className="site"> O Site está quase pronto!</h2>
+          <h2 className="site"> O Site está sendo desenvolvido</h2>
         </div>
         <div className="contacts">
           <h3 className="titleContact">Contatos</h3>
@@ -37,7 +34,7 @@ function App() {
           </p>
         </div>
         <div className="icons">
-          <h6 className="visite">Visite nossas redes sociais</h6>{" "}
+          {" "}
           <a
             href="https://www.instagram.com/rebrax_reciclagem"
             target={"blank"}

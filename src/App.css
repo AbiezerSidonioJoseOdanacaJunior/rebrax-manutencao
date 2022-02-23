@@ -6,7 +6,7 @@ body {
   margin: 0px;
   width: 100%;
   height: auto;
-  background-color: #2d9570;
+  background-image: linear-gradient(to bottom right, #2d9570, rgb(5, 43, 17));
 }
 
 .manuten {
@@ -14,8 +14,6 @@ body {
   margin-top: 35px;
   font-size: 70px;
   font-weight: 400;
-  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
-    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 .textos {
   z-index: 20;
@@ -23,8 +21,8 @@ body {
 }
 
 .site {
-  font-weight: 400;
-  font-size: 50px;
+  font-weight: 200;
+  font-size: 45px;
 }
 
 /*.bg {
@@ -38,18 +36,18 @@ body {
 
 .rebraxLogo {
   width: 100%;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  padding-top: 8px;
+  padding-top: 15px;
   z-index: 1;
 }
 
 .logo {
   display: flex;
+  text-align: center;
   align-items: center;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  padding: 5px;
-  margin-left: 5px;
+  justify-content: center;
   max-width: 200px;
   max-height: 200px;
   z-index: 1;
@@ -114,7 +112,7 @@ body {
 }
 
 .icons {
-  padding-top: 0px;
+  padding-top: 70px;
   font-size: 40px;
   position: relative;
   color: #fff;
