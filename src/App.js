@@ -4,6 +4,7 @@ import logo from "./Imagens/logo.png";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 import { FaCentercode, FaWrench } from "react-icons/fa";
 import background from "../src/Imagens/fundo.jpeg";
 
@@ -24,13 +25,17 @@ function App() {
         <div className="contacts">
           <h3 className="titleContact">Contatos</h3>
           <p>
-            <BsTelephone className="number" />
-            <span>+55 62 9176-7218 </span>
+            <a href="https://wa.me/5562991767218" className="number">
+              <BsWhatsapp />
+              <span>+55 62 99176-7218 </span>
+            </a>
           </p>
           <br />
           <p>
-            <BsTelephone className="number" />
-            <span>+55 62 9103-1805 </span>
+            <a href="https://wa.me/5562991031805" className="number">
+              <BsWhatsapp />
+              <span>+55 62 99103-1805 </span>
+            </a>
           </p>
         </div>
         <div className="icons">

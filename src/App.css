@@ -103,18 +103,17 @@ body {
   padding-top: px;
 }
 
-.contacts p {
+.contacts p a {
   display: flex;
   align-items: center;
   justify-content: center;
   line-height: 0rem;
   margin: 0;
+  text-decoration: none;
 }
 
 .icons {
-  padding-top: 70px;
   font-size: 40px;
-  position: relative;
   color: #fff;
   bottom: 50px;
 }
